@@ -23,7 +23,7 @@ const Header = () => {
           Ik-Alex
         </p>
         {/* Share Icon */}
-        <div className="shareFull absolute md:right-[-40%] lg:[-120%]  md:top-[-14px] ">
+        <div className="shareFull absolute md:right-[-40%]  md:top-[-14px] ">
           <p className="sharelink">Share Link</p>
           <img
             className="arrowShare"
