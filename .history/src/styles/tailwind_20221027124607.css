@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+}
+
+.img-container::after {
+  position: absolute;
+  content: "";
+  height: 6rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container:hover.img-container::after {
+  background-color: #344054bf;
+}
+
+.camera {
+  postion: absolute;
+  top: 50px;
+}

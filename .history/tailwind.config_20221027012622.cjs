@@ -12,7 +12,6 @@ module.exports = {
       colors: {
         darkGrey: "hsl(220, 17%, 93%)",
         lightGrey: "hsl(221, 13%, 46%)",
-        hoverGrey: " 	hsl(217, 16%, 84%)",
       },
     },
   },

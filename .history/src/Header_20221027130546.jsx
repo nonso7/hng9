@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="p-6 max-w-[500px] mx-auto">
+    <section className="p-6">
       {/* image contaiber */}
       <div className=" flex justify-center mt-8 relative md:mt-4">
         <div className="flex flex-col space-y-6 items-center">
@@ -22,20 +22,13 @@ const Header = () => {
         <p id="slack" className="text-xl font-bold hidden">
           Ik-Alex
         </p>
-        {/* Share Icon */}
-        <div className="shareFull absolute md:right-[-40%] lg:right-[220px] md:top-[-14px] ">
-          <p className="sharelink">Share Link</p>
-          <img
-            className="arrowShare"
-            src="/images/_Avatar share button full.png"
-            alt=""
-          />
-          <img
-            className="dotShare"
-            src="/images/_Avatar share button.png"
-            alt=""
-          />
+        <div className="hidden absolute md:right-[130px] lg:right-[220px] md:top-[-14px] md:block">
+          <img src="/images/_Avatar share button full.png" alt="" />
         </div>
+      </div>
+      {/* mobile image */}
+      <div className=" absolute right-[30px] top-[40px]  md:hidden">
+        <img src="/images/_Avatar share button.png" alt="" />
       </div>
     </section>
   );

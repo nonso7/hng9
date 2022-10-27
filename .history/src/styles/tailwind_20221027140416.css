@@ -47,9 +47,10 @@
   display: inline-block;
   right: 0;
 }
-
+/* https://meet.google.com/uvg-mkpc-rjc*/
+/*send me google chat lets connect on slack */
 .sharelink {
-  visibility: hidden;
+  /*visibility: hidden;*/
   position: absolute;
   margin: 0;
   width: 77px;
@@ -62,10 +63,10 @@
   padding: 8px 0;
   z-index: 1;
   right: 50px;
-  transition: visibility 0.3s ease;
+  transition: visibility 0.3s;
 }
 
-.shareFull .sharelink::after {
+.shareFull .sharelink {
   content: "";
   position: absolute;
   top: 50%;
@@ -74,10 +75,6 @@
   right: -21%;
   border: 10px solid #101828;
   border-color: transparent transparent transparent #101828;
-}
-
-.shareFull:hover .sharelink {
-  visibility: visible;
 }
 
 .dotShare {

@@ -23,19 +23,14 @@ const Header = () => {
           Ik-Alex
         </p>
         {/* Share Icon */}
-        <div className="shareFull absolute md:right-[-40%] lg:right-[220px] md:top-[-14px] ">
+        <div className="hidden shareFull absolute md:right-[-40%] lg:right-[220px] md:top-[-14px] md:block">
           <p className="sharelink">Share Link</p>
-          <img
-            className="arrowShare"
-            src="/images/_Avatar share button full.png"
-            alt=""
-          />
-          <img
-            className="dotShare"
-            src="/images/_Avatar share button.png"
-            alt=""
-          />
+          <img src="/images/_Avatar share button full.png" alt="" />
         </div>
+      </div>
+      {/* mobile image */}
+      <div className=" absolute right-[30px] top-[40px]  md:hidden">
+        <img src="/images/_Avatar share button.png" alt="" />
       </div>
     </section>
   );

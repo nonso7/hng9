@@ -9,7 +9,7 @@ const Links = () => {
           return (
             <a
               id={info.keyId}
-              className="block bg-darkGrey rounded-lg text-center mb-4  py-4 px-6 md:px-8 hover:cursor-pointer hover:bg-hoverGrey"
+              className="block bg-darkGrey rounded-lg text-center mb-4  py-4 px-6 md:px-8 hover:cursor-pointer "
               href={info.link}
             >
               {info.title}
