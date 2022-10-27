@@ -20,12 +20,12 @@ const Header = () => {
           Ik-Alex
         </p> */}
         <div className="hidden absolute md:right-[130px] lg:right-[220px] md:top-[-14px] md:block">
-          <img src="/images/_Avatar share button full.png" alt="" />
+          <img src="../images/_Avatar share button full.png" alt="" />
         </div>
       </div>
       {/* mobile image */}
       <div className=" absolute right-[30px] top-[40px]  md:hidden">
-        <img src="/images/_Avatar share button.png" alt="" />
+        <img src="../images/_Avatar share button.png" alt="" />
       </div>
     </section>
   );

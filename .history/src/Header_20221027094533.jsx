@@ -9,7 +9,7 @@ const Header = () => {
           <img
             id="profile__img"
             className="h-24 w-24 rounded-full"
-            src="/images/IMG-1295.jpg"
+            src="./images/IMG-1295.jpg"
             alt="profile picture"
           />
           <p id="twitter" className="text-xl font-bold">
@@ -20,12 +20,12 @@ const Header = () => {
           Ik-Alex
         </p> */}
         <div className="hidden absolute md:right-[130px] lg:right-[220px] md:top-[-14px] md:block">
-          <img src="/images/_Avatar share button full.png" alt="" />
+          <img src="../images/_Avatar share button full.png" alt="" />
         </div>
       </div>
       {/* mobile image */}
       <div className=" absolute right-[30px] top-[40px]  md:hidden">
-        <img src="/images/_Avatar share button.png" alt="" />
+        <img src="../images/_Avatar share button.png" alt="" />
       </div>
     </section>
   );
