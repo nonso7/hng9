@@ -10,17 +10,17 @@ const Header = () => {
             <img
               id="profile__img"
               className="h-24 w-24 rounded-full"
-              src="/images/Anette-Black.png"
+              src="/images/IMG_20210520_151014_963.jpg"
               alt="profile picture"
             />
             <img className="camera" src="/images/Photo-Icon.png" alt="" />
           </div>
           <p id="twitter" className="text-xl font-bold">
-            Ian Alex
+            Chinonso Nwajagu
           </p>
         </div>
         <p id="slack" className="text-xl font-bold hidden">
-          Ik-Alex
+          Chinonso Nwajagu
         </p>
         {/* Share Icon */}
         <div className="shareFull absolute md:right-[-40%] lg:[-120%]  md:top-[-14px] ">

@@ -2,7 +2,7 @@ const Data = [
   {
     keyId: "twitter_id",
     title: "Twitter Link",
-    link: "https://twitter.com/ik_again",
+    link: "https://twitter.com/Chinonso Nwajagu",
   },
   {
     keyId: "btn__zuri",
@@ -17,7 +17,7 @@ const Data = [
   {
     keyId: "book_python",
     title: "Python Books",
-    link: "http://books.zuri.team/python-for-beginners?ref_id=<Ik-Alex>",
+    link: "http://books.zuri.team/python-for-beginners?ref_id=<Chinonso Nwajagu>",
   },
   {
     keyId: "pitch",
